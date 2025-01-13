@@ -1,3 +1,8 @@
+<script setup lang="ts">
+import AppBG from './components/AppBG.vue';
+
+</script>
+
 <template>
   <div
     class="font-['Quicksand'] max-w-xl bg-white p-8 shadow-2xl rounded absolute m-auto left-0 right-0 mt-32"
@@ -22,4 +27,5 @@
       </div>
     </div>
   </div>
+  <AppBG />
 </template>
